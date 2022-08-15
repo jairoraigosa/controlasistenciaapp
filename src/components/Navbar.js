@@ -32,6 +32,7 @@ const Navbar = () => {
                     </ul>
                 </nav>
             </IconContext.Provider>
+            <b className='app-name'>Control de Asistencias APP</b>
         </>
     )
 }

@@ -34,7 +34,7 @@ function App() {
     <div style={{minHeight: 500}}>
       <nav className="navbar navbar-expand navbar-dark bg-dark">
         {login_token 
-          ? <Navbar/> 
+          ? <Navbar/>
           : <Link to={"/"} className="navbar-brand">
             Bienvenido a la plataforma para el control de asistencia de empleados
           </Link>
